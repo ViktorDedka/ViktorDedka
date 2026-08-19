@@ -2,6 +2,7 @@
 
 <!--
 **ViktorDedka/ViktorDedka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="ссылка_на_гифку.gif" width="150" align="right" />
 
 Here are some ideas to get you started:
 
