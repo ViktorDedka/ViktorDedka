@@ -38,7 +38,6 @@
 const std = @import("std");
 
 pub fn main() !void {
-    const stdout = std.io.getStdOut().writer();
-    try stdout.print("Привет! Я Viktor_Dedka — Junior системный разработчик! 🦀⚡\n", .{});
-    try stdout.print("Пишу низкоуровневый, быстрый и безопасный код на Rust и Zig.\n", .{});
+   std.debug.print("Дарова мне лень думать\n",.{});
+   std.debug.print("ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы java script заменить програмистов\n",.{});
 }
