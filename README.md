@@ -13,7 +13,7 @@
       <td width="50%" align="center">
         <h1>🐾 Viktor_Dedka 🐾</h1>
         <h3>⚡ Junior Systems Developer ⚡</h3>
-        <p><i>"Low-level wizardry, zero-cost abstractions & catboy vibes"</i></p>
+        <p><i>"Low-level wizardry, zero-cost abstractions "</i></p>
         <br/>
         <a href="https://github.com/Viktor_Dedka">
           <img src="https://img.shields.io/badge/Main_Language-Rust-orange?style=for-the-badge&logo=rust&logoColor=white" />
