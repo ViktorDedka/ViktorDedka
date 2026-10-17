@@ -40,5 +40,5 @@ const std = @import("std");
 pub fn main() !void {
    std.debug.print("мне лень думать\n",.{});
    std.debug.print("ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы java script заменить програмистов\n",.{});
-   std.debug.print("я типо офень клутой игрок Zig Гитлел",.{});
+   std.debug.print("я типо офень клутой иглок Zig ",.{});
 }
