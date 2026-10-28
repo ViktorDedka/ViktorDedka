@@ -34,15 +34,15 @@
 ```zig
 const std = @import("std");
 
-pub const Developer = struct {
-    name: []const u8 = "Viktor",
-    role: []const u8 = "Junior Systems Developer",
-    favorite_langs: [2][]const u8 = .{ "Rust", "Zig" },
-    memory_leaks: usize = 0,
-    open_to_work: bool = true,
-
-    pub fn execute(self: *const Developer, allocator: std.mem.Allocator) !void {
-        _ = allocator;
-        std.debug.print("[{s}]: turning coffee into zero-cost binaries...\n", .{self.name});
+fn Github(nice_Developer: []const u8) void {
+    if (std.mem.eql(u8, nice_Developer, "Viktor")) {
+        std.debug.print("{s} Junior Systems Developer", .{nice_Developer});
+    } else {
+        std.debug.print("no people", .{});
     }
-};
+}
+
+pub fn main() !void {
+    Github("Viktor");
+}
+
