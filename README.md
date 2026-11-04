@@ -37,9 +37,9 @@ const std = @import("std");
 fn Github(nice_Developer: []const u8) void {
     if (std.mem.eql(u8, nice_Developer, "Viktor")) {
         std.debug.print("{s} Junior Systems Developer", .{nice_Developer});
-    } else {
-        std.debug.print("no people", .{});
-    }
+        return;
+    } 
+    std.debug.print("no people", .{});
 }
 
 pub fn main() !void {
