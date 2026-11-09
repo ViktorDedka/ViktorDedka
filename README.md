@@ -34,15 +34,27 @@
 ```zig
 const std = @import("std");
 
-fn Github(nice_Developer: []const u8) void {
-    if (std.mem.eql(u8, nice_Developer, "Viktor")) {
-        std.debug.print("{s} Junior Systems Developer", .{nice_Developer});
-        return;
-    } 
-    std.debug.print("no people", .{});
+const en = enum {
+    Nice,
+};
+const str = struct {
+    names: []const u8,
+    age: u8,
+    En: en,
+};
+fn println(input: str) void {
+    std.debug.print("Delevoper:{s}::Age:{d},{s}", .{
+        input.names,
+        input.age,
+        @tagName(input.En),
+    });
+}
+pub fn main() !void {
+    println(.{
+        .names = "Viktor",
+        .age = 16,
+        .En = .Nice,
+    });
 }
 
-pub fn main() !void {
-    Github("Viktor");
-}
 
