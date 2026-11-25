@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Анимированный баннер-шапка -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=21,24&height=180&section=header&text=Viktor_Dedka&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Junior%20Systems%20Developer&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=21,24&height=180&section=header&text=Viktor_Dedka&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
 
   <table>
     <tr>
